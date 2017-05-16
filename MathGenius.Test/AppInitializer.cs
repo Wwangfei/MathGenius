@@ -14,6 +14,7 @@ namespace MathGenius.Test
             {
                 return ConfigureApp
                     .Android
+                    .ApkFile("../../../MathGenius/MathGenius.Android/bin/Debug/wk.MathGenius.apk")
                     .StartApp();
             }
 

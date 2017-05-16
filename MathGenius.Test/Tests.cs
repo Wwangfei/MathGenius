@@ -8,7 +8,7 @@ using Xamarin.UITest.Queries;
 namespace MathGenius.Test
 {
     [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    //[TestFixture(Platform.iOS)]
     public class Tests
     {
         IApp app;
@@ -29,6 +29,10 @@ namespace MathGenius.Test
         public void AppLaunches()
         {
             app.Screenshot("First screen.");
+            //app.Repl();
+            app.Flash("Next");
+            app.Tap("Next");
+            app.WaitForElement(e => e.Marked("Question 1"));
         }
     }
 }
