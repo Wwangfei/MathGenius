@@ -29,7 +29,7 @@ namespace MathGenius.Test
         public void AppLaunches()
         {
             app.Screenshot("First screen.");
-            app.Repl();
+            //app.Repl();
             app.Flash("Try This");
             app.Tap("Try This");
             app.WaitForElement(e => e.Marked("Question 1"));
