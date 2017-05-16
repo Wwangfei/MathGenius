@@ -12,8 +12,8 @@ namespace MathGenius
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MathGenius.MainPage();
+            var mainPage = new MathGenius.MainPage();
+            MainPage = new NavigationPage(mainPage);
         }
 
         protected override void OnStart()

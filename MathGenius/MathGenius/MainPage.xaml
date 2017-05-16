@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:MathGenius"
              x:Class="MathGenius.MainPage">
 
-	<Label Text="Welcome to Math App!" 
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <Label Text="Welcome to Math App!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+            <Button x:Name="NextButton" Text="Next" Clicked="NextButtonClicked"></Button>
+        </StackLayout>
+        
 
+    </StackLayout>
+	
 </ContentPage>
