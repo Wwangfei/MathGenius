@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MathGenius"
              x:Class="MathGenius.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Welcome to Math App!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
