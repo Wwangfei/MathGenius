@@ -45,6 +45,12 @@
     <Compile Include="QuestionOne.xaml.cs">
       <DependentUpon>QuestionOne.xaml</DependentUpon>
     </Compile>
+    <Compile Include="QuestionThree.xaml.cs">
+      <DependentUpon>QuestionThree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionTwo.xaml.cs">
+      <DependentUpon>QuestionTwo.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -75,6 +81,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="QuestionOne.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QuestionTwo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QuestionThree.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
