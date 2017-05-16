@@ -16,5 +16,16 @@ namespace MathGenius
         {
             InitializeComponent();
         }
+
+        private void CheckButtonClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NextButtonClicked(object sender, EventArgs e)
+        {
+            MessageLabel.Text = "You are done";
+            MessageLabel.TextColor = Color.Blue;
+        }
     }
 }

@@ -16,5 +16,17 @@ namespace MathGenius
         {
             InitializeComponent();
         }
+
+        private void CheckButtonClicked(object sender, EventArgs e)
+        {
+            this.MessageLabel.Text = "Please try again!";
+            this.MessageLabel.TextColor = Color.Red;
+        }
+
+        private void NextButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new QuestionTwo(), this);
+            Navigation.PopAsync();
+        }
     }
 }

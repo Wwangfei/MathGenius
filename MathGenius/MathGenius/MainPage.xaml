@@ -5,14 +5,11 @@
              x:Class="MathGenius.MainPage">
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout>
-            <Label Text="Welcome to Math App!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-            <Button x:Name="NextButton" Text="Next" Clicked="NextButtonClicked"></Button>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Are you a math genius? " HorizontalOptions="CenterAndExpand" FontSize="Large"></Label>
+            <Image x:Name="HomeImage" WidthRequest="300" HeightRequest="300"></Image>
+            <Button x:Name="TryButton" Text="Try This" Clicked="TryButtonClicked" BackgroundColor="Green" ></Button>
         </StackLayout>
-        
-
     </StackLayout>
 	
 </ContentPage>

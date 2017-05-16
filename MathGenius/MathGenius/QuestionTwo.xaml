@@ -2,7 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MathGenius.QuestionTwo">
-    <StackLayout>
-        
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="CheckButton" Text="Check" Clicked="CheckButtonClicked" HorizontalOptions="StartAndExpand" BackgroundColor="Goldenrod" HeightRequest="40"></Button>
+            <Button x:Name="NextButton" Text="Next" Clicked="NextButtonClicked" HorizontalOptions="EndAndExpand" BackgroundColor="Green" HeightRequest="40"></Button>
+        </StackLayout>
+        <StackLayout>
+            <Label x:Name="QuestionLabel" Text="Question 2" HorizontalOptions="CenterAndExpand"></Label>
+            <BoxView Color="Green" HeightRequest="1"></BoxView>
+            <Label Text="Please select the correct answer" HorizontalOptions="CenterAndExpand"></Label>
+            <Image HeightRequest="300" WidthRequest="300" HorizontalOptions="CenterAndExpand"></Image>
+            <BoxView Color="Green" HeightRequest="1"></BoxView>
+            <Entry x:Name="AnswerEntry" WidthRequest="300" Placeholder="Type your answer.A or B"  HorizontalOptions="CenterAndExpand"></Entry>
+            <Label x:Name="MessageLabel" Text="Correct!" HorizontalOptions="CenterAndExpand"></Label>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

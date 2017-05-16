@@ -16,5 +16,16 @@ namespace MathGenius
         {
             InitializeComponent();
         }
+
+        private void CheckButtonClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NextButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new QuestionThree(), this);
+            Navigation.PopAsync();
+        }
     }
 }

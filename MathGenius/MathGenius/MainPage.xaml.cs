@@ -14,10 +14,12 @@ namespace MathGenius
             InitializeComponent();
         }
 
-        private void NextButtonClicked(object sender, EventArgs e)
+        private void TryButtonClicked(object sender, EventArgs e)
         {
             Navigation.InsertPageBefore(new QuestionOne(), this);
             Navigation.PopAsync();
         }
+
+
     }
 }
