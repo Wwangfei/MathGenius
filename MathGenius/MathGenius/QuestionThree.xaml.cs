@@ -24,7 +24,7 @@ namespace MathGenius
 
         private void NextButtonClicked(object sender, EventArgs e)
         {
-            MessageLabel.Text = "You are done";
+            MessageLabel.Text = "You are done!";
             MessageLabel.TextColor = Color.Blue;
         }
     }
