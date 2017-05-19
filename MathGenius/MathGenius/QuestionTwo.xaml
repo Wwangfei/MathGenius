@@ -8,7 +8,7 @@
             <Button x:Name="NextButton" Text="Next" Clicked="NextButtonClicked" HorizontalOptions="EndAndExpand" BackgroundColor="Green" HeightRequest="40"></Button>
         </StackLayout>
         <StackLayout>
-            <Label x:Name="QuestionLabel" Text="Question 2" HorizontalOptions="CenterAndExpand"></Label>
+            <Label x:Name="QuestionLabel" Text="Question Two" HorizontalOptions="CenterAndExpand"></Label>
             <BoxView Color="Green" HeightRequest="1"></BoxView>
             <Label Text="Please select the correct answer" HorizontalOptions="CenterAndExpand"></Label>
             <Image HeightRequest="300" WidthRequest="300" HorizontalOptions="CenterAndExpand"></Image>
